@@ -23,3 +23,11 @@ let pi:Double = 3.14
 var bodyTemp:Double = 36.0
 bodyTemp = 36.5
 
+// if文
+var battryRemaining = 18
+if battryRemaining <= 10 {
+    print("バッテリー残量は残り10%以下です")
+} else if battryRemaining <= 20 {
+    print("バッテリー残量は残り20%以下です")
+}
+
