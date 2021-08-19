@@ -14,3 +14,9 @@ print(total)
 var TestScore = ["国語":95, "数学":70, "英語":80]
 TestScore["数学"] = 100
 print(TestScore)
+
+// 4-4
+func areaOfSquare(withSideLength lenght:Int) {
+    print(lenght * lenght)
+}
+areaOfSquare(withSideLength: 3)
