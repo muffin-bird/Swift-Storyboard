@@ -3,22 +3,32 @@
    version = "3.0">
    <TimelineItems>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/muffinman/Desktop/Storyboard/chapter_5/Slider.playground#CharacterRangeLen=6&amp;CharacterRangeLoc=55&amp;EndingColumnNumber=11&amp;EndingLineNumber=4&amp;StartingColumnNumber=5&amp;StartingLineNumber=4&amp;Timestamp=651330616.734784"
+         documentLocation = "file:///Users/muffinman/Desktop/Storyboard/chapter_5/Slider.playground#CharacterRangeLen=6&amp;CharacterRangeLoc=65&amp;EndingColumnNumber=11&amp;EndingLineNumber=5&amp;StartingColumnNumber=5&amp;StartingLineNumber=5&amp;Timestamp=651332707.4318579"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/muffinman/Desktop/Storyboard/chapter_5/Slider.playground#CharacterRangeLen=6&amp;CharacterRangeLoc=75&amp;EndingColumnNumber=7&amp;EndingLineNumber=5&amp;StartingColumnNumber=1&amp;StartingLineNumber=5&amp;Timestamp=651330616.734865"
+         documentLocation = "file:///Users/muffinman/Desktop/Storyboard/chapter_5/Slider.playground#CharacterRangeLen=6&amp;CharacterRangeLoc=85&amp;EndingColumnNumber=7&amp;EndingLineNumber=6&amp;StartingColumnNumber=1&amp;StartingLineNumber=6&amp;Timestamp=651332707.431949"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/muffinman/Desktop/Storyboard/chapter_5/Slider.playground#CharacterRangeLen=20&amp;CharacterRangeLoc=93&amp;EndingColumnNumber=0&amp;EndingLineNumber=8&amp;StartingColumnNumber=0&amp;StartingLineNumber=6&amp;Timestamp=651330616.7349271"
+         documentLocation = "file:///Users/muffinman/Desktop/Storyboard/chapter_5/Slider.playground#CharacterRangeLen=65&amp;CharacterRangeLoc=103&amp;EndingColumnNumber=0&amp;EndingLineNumber=11&amp;StartingColumnNumber=0&amp;StartingLineNumber=7&amp;Timestamp=651332707.4320101"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/muffinman/Desktop/Storyboard/chapter_5/Slider.playground#CharacterRangeLen=20&amp;CharacterRangeLoc=93&amp;EndingColumnNumber=0&amp;EndingLineNumber=8&amp;StartingColumnNumber=0&amp;StartingLineNumber=6&amp;Timestamp=651330616.7349859"
+         documentLocation = "file:///Users/muffinman/Desktop/Storyboard/chapter_5/Slider.playground#CharacterRangeLen=65&amp;CharacterRangeLoc=103&amp;EndingColumnNumber=0&amp;EndingLineNumber=11&amp;StartingColumnNumber=0&amp;StartingLineNumber=7&amp;Timestamp=651332707.432066"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/muffinman/Desktop/Storyboard/chapter_5/Slider.playground#CharacterRangeLen=6&amp;CharacterRangeLoc=104&amp;EndingColumnNumber=7&amp;EndingLineNumber=7&amp;StartingColumnNumber=1&amp;StartingLineNumber=7&amp;Timestamp=651332707.432121"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/muffinman/Desktop/Storyboard/chapter_5/Slider.playground#CharacterRangeLen=6&amp;CharacterRangeLoc=131&amp;EndingColumnNumber=7&amp;EndingLineNumber=9&amp;StartingColumnNumber=1&amp;StartingLineNumber=9&amp;Timestamp=651332707.432183"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
