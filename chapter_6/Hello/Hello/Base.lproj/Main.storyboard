@@ -19,6 +19,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ItB-yz-ZgO">
                                 <rect key="frame" x="164.5" y="318.5" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="sayHello" destination="BYZ-38-t0r" eventType="touchUpInside" id="bQ6-de-cGL"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sl0-am-NwN">
                                 <rect key="frame" x="166.5" y="180" width="42" height="21"/>
@@ -36,6 +39,10 @@
                             <constraint firstItem="ItB-yz-ZgO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rma-8x-ksV"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="Label" destination="Sl0-am-NwN" id="Pki-eV-0tH"/>
+                        <outlet property="SayHello" destination="ItB-yz-ZgO" id="Eef-WI-dHm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
