@@ -40,8 +40,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="Label" destination="Sl0-am-NwN" id="Pki-eV-0tH"/>
-                        <outlet property="SayHello" destination="ItB-yz-ZgO" id="Eef-WI-dHm"/>
+                        <outlet property="label" destination="Sl0-am-NwN" id="Ckq-oc-1Qi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
