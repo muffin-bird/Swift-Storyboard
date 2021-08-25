@@ -7,9 +7,11 @@ class Cat {
 
 // 子クラス
 // オーバーライド
+// super
 class Cheetah: Cat {
     override func run() {
         print("時速100キロで走る")
+        super.run()
     }
 }
 
