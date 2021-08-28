@@ -11,10 +11,11 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var imageView: UIImageView!
     
-    // Controllerクラスのインスタンスを作成
-    // 定数controllerに格納
     @IBAction func showActivityView(_ sender: UIBarButtonItem) {
+        // UIActivityViewControllerクラスのインスタンス作成
+        // 動作の対象となる画像を指定 (activityItems)
         let controller = UIActivityViewController(activityItems: [imageView.image!], applicationActivities: nil)
+        //  ビューコントローラーを指定することでViewプロパティがモーダルビューになる
         self.present(controller, animated: true, completion: nil)
     }
     override func viewDidLoad() {
