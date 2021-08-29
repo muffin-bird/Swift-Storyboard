@@ -27,6 +27,7 @@
                                             <action selector="showActivityView:" destination="BYZ-38-t0r" id="vtD-7H-VGo"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem systemItem="camera" id="Nsp-40-J3l"/>
                                 </items>
                             </toolbar>
                         </subviews>
