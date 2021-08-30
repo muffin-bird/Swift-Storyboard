@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         // 動作の対象となる画像を指定 (activityItems)
         let controller = UIActivityViewController(activityItems: [imageView.image!], applicationActivities: nil)
         //  ビューコントローラーを指定することでViewプロパティがモーダルビューになる
-        self.present(controller, animated: true, completion: nil)
+        self.present(controller, animated: true, completion: {print("接続完了")})
     }
     override func viewDidLoad() {
         super.viewDidLoad()
