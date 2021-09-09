@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,18 +13,18 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Camera" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tbA-yv-hdP">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="m7Y-Nl-fBn">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vNb-cn-Mul">
-                                <rect key="frame" x="0.0" y="818" width="414" height="44"/>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oeb-qw-6pR">
+                                <rect key="frame" x="0.0" y="572" width="375" height="44"/>
                                 <items>
-                                    <barButtonItem systemItem="camera" id="4bh-Or-hNH">
+                                    <barButtonItem systemItem="camera" id="qaB-UG-1Ix">
                                         <connections>
-                                            <action selector="launchCamera:" destination="BYZ-38-t0r" id="sHZ-zB-dQG"/>
+                                            <action selector="launchCamera:" destination="BYZ-38-t0r" id="B8D-mM-2JG"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
@@ -33,23 +33,22 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="vNb-cn-Mul" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="6KU-Z5-Fus"/>
-                            <constraint firstItem="vNb-cn-Mul" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="CZc-DI-KbI"/>
-                            <constraint firstItem="tbA-yv-hdP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EDz-Vo-nHL"/>
-                            <constraint firstItem="tbA-yv-hdP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Eh9-Gb-qCg"/>
-                            <constraint firstItem="tbA-yv-hdP" firstAttribute="trailing" secondItem="vNb-cn-Mul" secondAttribute="trailing" id="HP3-tf-eyh"/>
-                            <constraint firstItem="vNb-cn-Mul" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="774" id="PjR-pl-jiQ"/>
-                            <constraint firstItem="tbA-yv-hdP" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-44" id="kej-2N-AeZ"/>
-                            <constraint firstItem="tbA-yv-hdP" firstAttribute="leading" secondItem="vNb-cn-Mul" secondAttribute="leading" id="lDi-Qh-dlw"/>
+                            <constraint firstItem="m7Y-Nl-fBn" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="LK7-gB-XTd"/>
+                            <constraint firstItem="m7Y-Nl-fBn" firstAttribute="leading" secondItem="Oeb-qw-6pR" secondAttribute="leading" id="PHq-3Y-qd1"/>
+                            <constraint firstItem="m7Y-Nl-fBn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hg2-Aw-qnz"/>
+                            <constraint firstItem="m7Y-Nl-fBn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="lsI-Sh-rf0"/>
+                            <constraint firstItem="m7Y-Nl-fBn" firstAttribute="trailing" secondItem="Oeb-qw-6pR" secondAttribute="trailing" id="n7U-UI-LO5"/>
+                            <constraint firstItem="Oeb-qw-6pR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="572" id="tud-T9-YVc"/>
+                            <constraint firstItem="m7Y-Nl-fBn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yGS-mH-uvf"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="tbA-yv-hdP" id="ZaA-vh-Fhc"/>
+                        <outlet property="imageView" destination="m7Y-Nl-fBn" id="Ww4-0c-3z5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
         </scene>
     </scenes>
     <resources>
