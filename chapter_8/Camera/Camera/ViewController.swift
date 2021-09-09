@@ -13,8 +13,10 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     @IBAction func launchCamera(_ sender: UIBarButtonItem) {
         
         // カメラがタップされた時の処理
+        // 画像の取得方法を定数に代入 (列拳体)
         let camera = UIImagePickerController.SourceType.camera
         
+        // デバイスチェック
         if UIImagePickerController.isSourceTypeAvailable(camera) {
             let picker = UIImagePickerController()
             picker.sourceType = camera
