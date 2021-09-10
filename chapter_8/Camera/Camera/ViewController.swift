@@ -7,6 +7,7 @@
 
 import UIKit
 
+// 撮影が完了したことを通知
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
         
     @IBOutlet weak var imageView: UIImageView!
