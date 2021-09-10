@@ -26,12 +26,15 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
     
     // 撮影完了時の処理
-    func imagePickerController(_ picker: UIImagePickerController,
-                               didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-        
+    // 引数名infoに撮影した画像が格納されている
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        // 画像の取り出し・UIImage型に変換
         let image = info[UIImagePickerController.InfoKey.originalImage] as! UIImage
+        //イメージビューに画像を表示
         self.imageView.image = image
+        // 写真アルバムに保存
         UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
+        // モーダルビューを削除
         self.dismiss(animated: true)
     }
     
