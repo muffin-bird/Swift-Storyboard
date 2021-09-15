@@ -13,3 +13,5 @@ class Japan:KyoutoProtocol {
     }
 }
 
+// 変数の型にプロトコルを指定する
+var country:KyoutoProtocol = Japan()
