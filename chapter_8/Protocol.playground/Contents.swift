@@ -26,4 +26,4 @@ class Japan:Asia, KyoutoProtocol, WashingtonConvention {
 }
 
 // 変数の型にプロトコルを指定する
-var country:KyoutoProtocol = Japan()
+var country:KyoutoProtocol & WashingtonConvention = Japan()
