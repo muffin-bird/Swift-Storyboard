@@ -5,8 +5,12 @@ import UIKit
     @objc optional func chargeCarbonTax()
 }
 
+// 親クラス
+class Asia {
+    
+}
 // クラス
-class Japan:KyoutoProtocol {
+class Japan:Asia, KyoutoProtocol {
     func stopGlobalWarming() {
         print("クリーンエネルギーを推進します。")
         print("森林を増やします。")
