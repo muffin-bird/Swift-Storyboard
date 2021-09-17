@@ -21,6 +21,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         if UIImagePickerController.isSourceTypeAvailable(camera) {
             let picker = UIImagePickerController()
             picker.sourceType = camera
+            // 複数のプロトコルを指定している
             picker.delegate = self
             self.present(picker, animated: true)
         }
